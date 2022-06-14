@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 //https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0001.Two-Sum/
+//https://leetcode.com/problems/two-sum/
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
