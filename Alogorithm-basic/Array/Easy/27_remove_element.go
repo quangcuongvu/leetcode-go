@@ -15,12 +15,10 @@ func removeElement(nums []int, val int) int {
 			j++
 		}
 	}
-    fmt.Println(nums)
 	return j
 }
 func main() {
-
-	nums := []int{2,1,2,0, 1, 2, 2, 3, 0, 4, 2}
+	nums := []int{2, 1, 2, 0, 1, 2, 2, 3, 0, 4, 2}
 	val := 2
 	result := removeElement(nums, val)
 	fmt.Println(result)
